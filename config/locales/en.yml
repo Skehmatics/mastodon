@@ -1160,6 +1160,10 @@ en:
     contrast: Mastodon (High contrast)
     default: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
+    glitchy-witchy: Glitchy Witchy (witches.live)
+    synthwave: Synthwave (radical.town)
+    demogorgon: Demogorgon (radical.town)
+    chillstep: Chillstep (radical.town)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
