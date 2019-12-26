@@ -5,7 +5,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
 
   attributes :uri, :title, :short_description, :description, :email,
              :version, :urls, :stats, :thumbnail,
-             :languages, :registrations, :approval_required
+             :languages, :registrations, :approval_required, :max_toot_chars
 
   has_one :contact_account, serializer: REST::AccountSerializer
 
@@ -57,6 +57,10 @@ class REST::InstanceSerializer < ActiveModel::Serializer
 
   def registrations
     Setting.registrations_mode != 'none' && !Rails.configuration.x.single_user_mode
+  end
+
+  def max_toot_chars
+    1000
   end
 
   def approval_required
