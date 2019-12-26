@@ -1,0 +1,25 @@
+// Dependent colors
+$black: #000000;
+
+$classic-base-color: #000000;
+$classic-primary-color: #888888;
+$classic-secondary-color: #ffffff;
+$classic-highlight-color: #aaaaaa;
+
+$ui-base-color: $classic-base-color !default;
+$ui-primary-color: $classic-primary-color !default;
+$ui-secondary-color: $classic-secondary-color !default;
+
+// Differences
+$gold-star: #aaaaaa;
+$ui-highlight-color: #aaaaaa;
+
+$darker-text-color: lighten($ui-primary-color, 20%) !default;
+$dark-text-color: lighten($ui-primary-color, 12%) !default;
+$secondary-text-color: lighten($ui-secondary-color, 6%) !default;
+$highlight-text-color: $classic-highlight-color !default;
+$action-button-color: #444444;
+$inverted-text-color: $black !default;
+$lighter-text-color: darken($ui-base-color, 6%) !default;
+$light-text-color: darken($ui-primary-color, 40%) !default;
+

@@ -1164,6 +1164,10 @@ en:
     synthwave: Synthwave (radical.town)
     demogorgon: Demogorgon (radical.town)
     chillstep: Chillstep (radical.town)
+    mastodon-autumn: Autumn (is.nota.live)
+    mastodon-winter: Winter (is.nota.live)
+    mastodon-black: Black (is.nota.live)
+
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
