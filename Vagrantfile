@@ -96,7 +96,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/bionic64"
 
   config.vm.provider :virtualbox do |vb|
-    vb.name = "mastodon"
+    vb.name = "deadinside"
     vb.customize ["modifyvm", :id, "--memory", "4096"]
     # Increase the number of CPUs. Uncomment and adjust to
     # increase performance
