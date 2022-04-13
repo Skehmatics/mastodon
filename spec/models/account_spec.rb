@@ -17,7 +17,7 @@ RSpec.describe Account, type: :model do
       end
 
       context 'when the account is of a local user' do
-        let!(:subject) { Fabricate(:account, user: Fabricate(:user, email: 'foo+bar@domain.org')) }
+        let!(:subject) { Fabricate(:user, email: 'foo+bar@domain.org').account }
 
         it 'creates a canonical domain block' do
           subject.suspend!
@@ -611,20 +611,20 @@ RSpec.describe Account, type: :model do
         expect(account).to model_have_error_on_field(:username)
       end
 
-      it 'is invalid if the username is longer then 60 characters' do
-        account = Fabricate.build(:account, username: Faker::Lorem.characters(number: 61))
+      it 'is invalid if the username is longer then 30 characters' do
+        account = Fabricate.build(:account, username: Faker::Lorem.characters(number: 31))
         account.valid?
         expect(account).to model_have_error_on_field(:username)
       end
 
-      it 'is invalid if the display name is longer than 60 characters' do
-        account = Fabricate.build(:account, display_name: Faker::Lorem.characters(number: 61))
+      it 'is invalid if the display name is longer than 30 characters' do
+        account = Fabricate.build(:account, display_name: Faker::Lorem.characters(number: 31))
         account.valid?
         expect(account).to model_have_error_on_field(:display_name)
       end
 
-      it 'is invalid if the note is longer than 360 characters' do
-        account = Fabricate.build(:account, note: Faker::Lorem.characters(361))
+      it 'is invalid if the note is longer than 500 characters' do
+        account = Fabricate.build(:account, note: Faker::Lorem.characters(number: 501))
         account.valid?
         expect(account).to model_have_error_on_field(:note)
       end
