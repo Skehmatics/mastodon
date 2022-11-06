@@ -1,91 +1,26 @@
 ---
 co:
   about:
-    about_hashtag_html: Quessi sò statuti pubblichi taggati cù <strong>#%{hashtag}</strong>. Pudete interagisce cù elli sì voi avete un contu in qualche parte di u fediversu.
     about_mastodon_html: 'A rete suciale di u futuru: micca pubblicità, micca surveglianza, cuncezzione etica, è dicentralizazione! Firmate in cuntrollu di i vostri dati cù Mastodon!'
-    about_this: À prupositu
-    active_count_after: attivi
-    active_footnote: Utilizatori Attivi Mensili (UAM)
-    administered_by: 'Amministratu da:'
-    api: API
-    apps: Applicazione per u telefuninu
-    apps_platforms: Utilizà Mastodon dapoi à iOS, Android è altre piattaforme
-    browse_directory: Navigà un'annuariu di i prufili è filtra per interessi
-    browse_local_posts: Navigà un flussu di statuti pubblichi da stu servore
-    browse_public_posts: Navigà un flussu di i statuti pubblichi nant'à Mastodon
-    contact: Cuntattu
     contact_missing: Mancante
     contact_unavailable: Micca dispunibule
-    discover_users: Scopre utilizatori
-    documentation: Ducumentazione
-    federation_hint_html: Cù un contu nant'à %{instance} puderete siguità ghjente da tutti i servori Mastodon è ancu più d'altri.
-    get_apps: Pruvà un'applicazione di telefuninu
     hosted_on: Mastodon allughjatu nant’à %{domain}
-    instance_actor_flash: |
-      Stu contu ghjè un'attore virtuale chì ghjove à riprisentà u servore sanu è micca un veru utilizatore.
-      Hè utilizatu da a federazione è ùn deve micca esse bluccatu eccettu s'e voi vulete bluccà tuttu u servore, in quellu casu duvereste utilizà un blucchime di duminiu.
-    learn_more: Amparà di più
-    privacy_policy: Pulitica di vita privata
-    rules: Regule di u servore
-    rules_html: 'Eccu un riassuntu di e regule da siguità s''e voi vulete creà un contu nant''à quessu servore di Mastodon:'
-    see_whats_happening: Vede cio chì si passa
-    server_stats: 'Statistiche di u servore:'
-    source_code: Codice di fonte
-    status_count_after:
-      one: statutu
-      other: statuti
-    status_count_before: Chì anu pubblicatu
-    tagline: Siguità amichi è scopre ancu di più altri
-    terms: Cundizione di u serviziu
-    unavailable_content: Cuntinutu micca dispunibule
-    unavailable_content_description:
-      domain: Servore
-      reason: Ragione
-      rejecting_media: 'I fugliali media da stu servore ùn saranu micca arregistrati è e vignette ùn saranu micca affissate, duverete cliccà manualmente per accede à l''altru servore è vedeli:'
-      rejecting_media_title: Media filtrati
-      silenced: 'I statuti da stu servore ùn saranu mai visti tranne nant''a vostra pagina d''accolta s''e voi siguitate l''autore:'
-      silenced_title: Servori silenzati
-      suspended: 'Ùn puderete micca siguità qualsiasi nant''à stu servore, i dati versu o da quallà ùn saranu mai accessi, scambiati o arregistrati:'
-      suspended_title: Servori suspesi
-    unavailable_content_html: Mastodon vi parmette in generale di vede u cuntinutu è interagisce cù l'utilizatori di tutti l'altri servori di u fediversu. Quessi sò l'eccezzione fatte nant'à stu servore in particulare.
-    user_count_after:
-      one: utilizatore
-      other: utilizatori
-    user_count_before: Ci sò
-    what_is_mastodon: Quale hè Mastodon?
   accounts:
-    choices_html: "%{name} ricumanda:"
-    endorsements_hint: Pudete appughjà i conti chì siguitate dapoi l'interfaccia web, è saranu mustrati quì.
-    featured_tags_hint: Pudete mette in mostra qualchì hashtag chì saranu affissati quì.
     follow: Siguità
     followers:
       one: Abbunatu·a
       other: Abbunati
     following: Abbunamenti
     instance_actor_flash: Stu contu virtuale riprisenta u servore stessu, micca un'utilizatore individuale. Hè utilizatu per scopi di federazione è ùn duveria mai esse suspesu.
-    joined: Quì dapoi %{date}
     last_active: ultima attività
     link_verified_on: A pruprietà d'issu ligame hè stata verificata u %{date}
-    media: Media
-    moved_html: "%{name} hà cambiatu di contu, avà hè nant’à %{new_profile_link}:"
-    network_hidden: St'infurmazione ùn hè micca dispunibule
     nothing_here: Ùn c’hè nunda quì!
-    people_followed_by: Seguitati da %{name}
-    people_who_follow: Seguitanu %{name}
     pin_errors:
       following: Duvete digià siguità a persona che vulete ricumandà
     posts:
       one: Statutu
       other: Statuti
     posts_tab_heading: Statuti
-    posts_with_replies: Statuti è risposte
-    roles:
-      admin: Amministratore
-      bot: Bot
-      group: Gruppu
-      moderator: Muderatore
-    unavailable: Prufile micca dispunibule
-    unfollow: Ùn siguità più
   admin:
     account_actions:
       action: Realizà un'azzione
@@ -102,7 +37,6 @@ co:
       avatar: Ritrattu di prufile
       by_domain: Duminiu
       change_email:
-        changed_msg: Email di u contu cambiatu!
         current_email: E-mail attuale
         label: Mudificà l’e-mail
         new_email: Novu e-mail
@@ -179,12 +113,6 @@ co:
       reset: Riinizializà
       reset_password: Riinizializà a chjave d’accessu
       resubscribe: Riabbunassi
-      role: Auturizazione
-      roles:
-        admin: Amministratore
-        moderator: Muderatore
-        staff: Squadra
-        user: Utilizatore
       search: Cercà
       search_same_email_domain: Altri utilizatori cù listessu duminiu d'e-mail
       search_same_ip: Altri utilizatori cù listessa IP
@@ -279,7 +207,6 @@ co:
         create_unavailable_domain_html: "%{name} hà firmatu a distribuzione à u duminiu %{target}"
         demote_user_html: "%{name} hà ritrugradatu l’utilizatore %{target}"
         destroy_announcement_html: "%{name} hà sguassatu u novu annunziu %{target}"
-        destroy_custom_emoji_html: "%{name} hà sguassatu l'emoji %{target}"
         destroy_domain_allow_html: "%{name} hà sguassatu u duminiu %{target} da a lista bianca"
         destroy_domain_block_html: "%{name} hà sbluccatu u duminiu %{target}"
         destroy_email_domain_block_html: "%{name} hà messu u duminiu e-mail %{target} nant’a lista bianca"
@@ -308,7 +235,6 @@ co:
         update_custom_emoji_html: "%{name} hà messu à ghjornu l’emoji %{target}"
         update_domain_block_html: "%{name} hà messu à ghjornu u blucchime di duminiu per %{target}"
         update_status_html: "%{name} hà cambiatu u statutu di %{target}"
-      deleted_status: "(statutu sguassatu)"
       empty: Nunda trovu.
       filter_by_action: Filtrà da azzione
       filter_by_user: Filtrà da utilizatore
@@ -536,94 +462,15 @@ co:
       edit: Mudificà regula
       title: Regule di u servore
     settings:
-      activity_api_enabled:
-        desc_html: Numeri di statuti creati quì, utilizatori attivi, è arregistramenti novi tutte e settimane
-        title: Pubblicà statistiche nant’à l’attività di l’utilizatori
-      bootstrap_timeline_accounts:
-        desc_html: Cugnomi separati cù virgule. Solu pussibule cù conti lucali è pubblichi. Quandu a lista hè viota, tutti l’amministratori lucali saranu selezziunati.
-        title: Abbunamenti predefiniti per l’utilizatori novi
-      contact_information:
-        email: E-mail prufissiunale
-        username: Identificatore di cuntattu
-      custom_css:
-        desc_html: Mudificà l'apparenza cù CSS caricatu nant'à ogni pagina
-        title: CSS persunalizatu
-      default_noindex:
-        desc_html: Tocca tutti quelli ch'ùn anu micca cambiatu stu parametru
-        title: Ritirà l'utilizatori di l'indicazione nant'à i mutori di ricerca
       domain_blocks:
         all: À tutti
         disabled: À nimu
-        title: Mustrà blucchime di duminiu
         users: À l'utilizatori lucali cunnettati
-      domain_blocks_rationale:
-        title: Vede ragiò
-      hero:
-        desc_html: Affissatu nant’a pagina d’accolta. Ricumandemu almenu 600x100px. S’ellu ùn hè micca definiti, a vignetta di u servore sarà usata
-        title: Ritrattu di cuprendula
-      mascot:
-        desc_html: Affissata nant'à parechje pagine. Almenu 293x205px ricumandatu. S'ella hè lasciata viota, a mascotta predefinita sarà utilizata
-        title: Ritrattu di a mascotta
-      peers_api_enabled:
-        desc_html: Indirizzi web stu servore hà vistu indè u fediversu
-        title: Pubblicà a lista di servori cunnisciuti
-      preview_sensitive_media:
-        desc_html: E priviste di i ligami nant'à l'altri siti mustreranu una vignetta ancu s'ellu hè marcatu cum'è sensibile u media
-        title: Vede media sensibili in e viste OpenGraph
-      profile_directory:
-        desc_html: Auturizà a scuperta di l'utilizatori
-        title: Attivà l'annuariu di i prufili
-      registrations:
-        closed_message:
-          desc_html: Affissatu nant’a pagina d’accolta quandu l’arregistramenti sò chjosi. Pudete fà usu di u furmattu HTML
-          title: Missaghju per l’arregistramenti chjosi
-        deletion:
-          desc_html: Auturizà tuttu u mondu à sguassà u so propiu contu
-          title: Auturizà à sguassà i conti
-        min_invite_role:
-          disabled: Nimu
-          title: Auturizà l’invitazione da
-        require_invite_text:
-          desc_html: Quandu l'arregistramenti necessitanu un'apprubazione manuale, fà chì u testu "Perchè vulete ghjunghje?" sia ubligatoriu invece d'esse facultativu
-          title: Richiede chì i novi utilizatori empiinu una dumanda d'invitazione
       registrations_mode:
         modes:
           approved: Apprubazione necessaria per arregistrassi
           none: Nimu ùn pò arregistrassi
           open: Tutt'ognunu pò arregistrassi
-        title: Modu d'arregistramenti
-      show_known_fediverse_at_about_page:
-        desc_html: Quandu ghjè selezziunatu, statuti di tuttu l’istanze cunnisciute saranu affissati indè a vista di e linee. Altrimente soli i statuti lucali saranu mustrati
-        title: Vedde tuttu u fediverse cunnisciutu nant’a vista di e linee
-      show_staff_badge:
-        desc_html: Mustrerà un badge Squadra nant’à un prufile d’utilizatore
-        title: Mustrà un badge staff
-      site_description:
-        desc_html: Paragrafu di prisentazione nant’a pagina d’accolta. Parlate di cio chì rende stu servore speziale, o d'altre cose impurtante. Pudete fà usu di marchi HTML, in particulare <code>&lt;a&gt;</code> è <code>&lt;em&gt;</code>.
-        title: Discrizzione di u servore
-      site_description_extended:
-        desc_html: Una bona piazza per e regule, infurmazione è altre cose chì l’utilizatori duverìanu sapè. Pudete fà usu di marchi HTML
-        title: Discrizzione stesa di u situ
-      site_short_description:
-        desc_html: Mustratu indè a barra laterala è i tag meta. Spiegate quale hè Mastodon è ciò chì rende u vostru servore speciale in un paragrafu. S'ella hè lasciata viota, a discrizzione di u servore sarà utilizata.
-        title: Descrizzione corta di u servore
-      site_terms:
-        desc_html: Quì pudete scrive e vostre regule di cunfidenzialità, cundizione d’usu o altre menzione legale. Pudete fà usu di marchi HTML
-        title: Termini persunalizati
-      site_title: Nome di u servore
-      thumbnail:
-        desc_html: Utilizatu per viste cù OpenGraph è l’API. Ricumandemu 1200x630px
-        title: Vignetta di u servore
-      timeline_preview:
-        desc_html: Vede a linea pubblica nant’a pagina d’accolta
-        title: Vista di e linee
-      title: Parametri di u situ
-      trendable_by_default:
-        desc_html: Ùn affetta micca quelli chì sò digià stati ricusati
-        title: Auturizà l'hashtag à esse in tindenze senza verificazione
-      trends:
-        desc_html: Mustrà à u pubblicu i hashtag chì sò stati digià verificati è chì sò in e tendenze avà
-        title: Tendenze di hashtag
     site_uploads:
       delete: Sguassà u fugliale caricatu
       destroyed_msg: Fugliale sguassatu da u situ!
@@ -705,16 +552,12 @@ co:
   applications:
     created: Applicazione creata
     destroyed: Applicazione sguassata
-    invalid_url: L’URL ch’è stata pruvista ùn hè valida
     regenerate_token: Creà un’altra fiscia d’accessu
     token_regenerated: A fiscia d’accessu hè stata rigenerata
     warning: Abbadate à quessi dati. Ùn i date à nisunu!
     your_token: Rigenerà a fiscia d’accessu
   auth:
-    apply_for_account: Dumandà un'invitazione
     change_password: Chjave d’accessu
-    checkbox_agreement_html: Sò d'accunsentu cù e <a href="%{rules_path}" target="_blank">regule di u servore</a> è i <a href="%{terms_path}" target="_blank">termini di u serviziu</a>
-    checkbox_agreement_without_rules_html: Accettu i <a href="%{terms_path}" target="_blank">termini di u serviziu</a>
     delete_account: Sguassà u contu
     delete_account_html: S’è voi vulete toglie u vostru contu <a href="%{path}">ghjè quì</a>. Duverete cunfirmà a vostra scelta.
     description:
@@ -751,7 +594,6 @@ co:
       pending: A vostra dumanda hè in attesa di rivista da a squadra di muderazione. Quessa pò piglià un certu tempu. Avete da riceve un'e-mail s'ella hè appruvata.
       redirecting_to: U vostru contu hè inattivu perchè riindirizza versu %{acct}.
     too_fast: Furmulariu mandatu troppu prestu, ripruvate.
-    trouble_logging_in: Difficultà per cunnettavi?
     use_security_key: Utilizà a chjave di sicurità
   authorize_follow:
     already_following: Site digià abbunatu·a à stu contu
@@ -809,10 +651,6 @@ co:
       more_details_html: Per più di ditagli, videte a <a href="%{terms_path}">pulitica di vita privata</a>.
       username_available: U vostru cugnome riduvinterà dispunibule
       username_unavailable: U vostru cugnome ùn sarà sempre micca dispunibule
-  directories:
-    directory: Annuariu di i prufili
-    explanation: Scopre utilizatori à partesi di i so centri d'interessu
-    explore_mastodon: Scopre à %{title}
   domain_validator:
     invalid_domain: ùn hè micca un nome di duminiu currettu
   errors:
@@ -864,7 +702,6 @@ co:
       title: Mudificà u filtru
     errors:
       invalid_context: Micca abbastanza cuntestu
-      invalid_irreversible: A filtrazione irreversibile marchja solu per l'accolta è e nutificazione
     index:
       delete: Toglie
       empty: Ùn avete manc'un filtru.
@@ -872,9 +709,6 @@ co:
     new:
       title: Aghjunghje un novu filtru
   footer:
-    developers: Sviluppatori
-    more: Di più…
-    resources: Risorse
     trending_now: Tindenze d'avà
   generic:
     all: Tuttu
@@ -905,7 +739,6 @@ co:
       following: Persone chì seguitate
       muting: Persone chì piattate
     upload: Impurtà
-  in_memoriam_html: In mimoria.
   invites:
     delete: Disattivà
     expired: Spirata
@@ -980,17 +813,6 @@ co:
     carry_mutes_over_text: St'utilizatore hà traslucatu dapoi %{acct}, ch'aviate piattatu.
     copy_account_note_text: 'St''utilizatore hà traslucatu dapoi %{acct}, eccu e vostr''anziane note nant''à ellu:'
   notification_mailer:
-    digest:
-      action: Vede tutte e nutificazione
-      body: Eccu cio ch’avete mancatu dapoi à a vostr’ultima visita u %{since}
-      mention: "%{name} v’hà mintuvatu·a in:"
-      new_followers_summary:
-        one: Avete ancu un’abbunatu novu!
-        other: Avete ancu %{count} abbunati novi!
-      subject:
-        one: "Una nutificazione nova dapoi à a vostr’ultima visita 🐘"
-        other: "%{count} nutificazione nove dapoi à a vostr’ultima visita 🐘"
-      title: Dapoi l’ultima volta…
     favourite:
       body: "%{name} hà aghjuntu u vostru statutu à i so favuriti :"
       subject: "%{name} hà messu u vostru post in i so favuriti"
@@ -1082,22 +904,7 @@ co:
     remove_selected_follows: Ùn siguità più l'utilizatori selezziunati
     status: Statutu di u contu
   remote_follow:
-    acct: Entrate u vostru cugnome@istanza da induve vulete siguità stu contu
     missing_resource: Ùn avemu pussutu à truvà l’indirizzu di ridirezzione
-    no_account_html: Ùn avete micca un contu? Pudete <a href='%{sign_up_path}' target='_blank'>arregistravi quì</a>
-    proceed: Cuntinuà per siguità
-    prompt: 'Avete da siguità:'
-    reason_html: "<strong>Perchè hè necessaria sta tappa?</strong> <code>%{instance}</code> ùn hè forse micca u servore induve site arregistratu·a, allora primu duvemu riindirizzavi à u vostru servore."
-  remote_interaction:
-    favourite:
-      proceed: Cuntinuà per favurisce
-      prompt: 'Vulete aghjunghje stu statutu à i vostri favuriti:'
-    reblog:
-      proceed: Cuntinuà per sparte
-      prompt: 'Vulete sparte stu statutu:'
-    reply:
-      proceed: Cuntinuà per risponde
-      prompt: 'Vulete risponde à stu statutu:'
   scheduled_statuses:
     over_daily_limit: Avete trapassatu a limita di %{limit} statuti pianificati per stu ghjornu
     over_total_limit: Avete trapassatu a limita di %{limit} statuti pianificati
@@ -1245,89 +1052,6 @@ co:
     sensitive_content: Cuntenutu sensibile
   tags:
     does_not_match_previous_name: ùn currisponde micca à l'anzianu nome
-  terms:
-    body_html: |
-      <h2>Politique de confidentialité</h2>
-      <h3 id="collect">Quelles informations collectons-nous ?</h3>
-
-      <ul>
-      <li><em>Informations de base sur votre compte</em> : Si vous vous inscrivez sur ce serveur, il vous sera demandé de rentrer un identifiant, une adresse électronique et un mot de passe. Vous pourrez également ajouter des informations additionnelles sur votre profil, telles qu’un nom public et une biographie, ainsi que téléverser une image de profil et une image d’en-tête. Vos identifiant, nom public, biographie, image de profil et image d’en-tête seront toujours affichés publiquement.</li>
-      <li><em>Posts, liste d’abonnements et autres informations publiques</em> : La liste de vos abonnements ainsi que la liste de vos abonné·e·s sont publiques. Quand vous postez un message, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistré·e·s. Des médias, tels que des images ou des vidéos, peuvent être joints aux messages. Les posts publics et non listés sont affichés publiquement. Quand vous mettez en avant un post sur votre profil, ce post est également affiché publiquement. Vos messages sont délivrés à vos abonné·e·s, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimer un post, il est probable que vos abonné·e·s en soient informé·e·s. Partager un message ou le marquer comme favori est toujours une action publique.</li>
-      <li><em>Posts directs et abonné·e·s uniquement</em> : Tous les posts sont stockés et traités par le serveur. Les messages abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne fois pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il-vous-plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partager aucune information sensible à l’aide de Mastodon.</em></li>
-      <li><em>IP et autres métadonnées</em> : Quand vous vous connectez, nous enregistrons votre adresse IP ainsi que le nom de votre navigateur web. Toutes les sessions enregistrées peuvent être consultées dans les paramètres, afin que vous puissiez les surveiller et éventuellement les révoquer. La dernière adresse IP utilisée est conservée pour une durée de 12 mois. Nous sommes également susceptibles de conserver les journaux du serveur, ce qui inclut l’adresse IP de chaque requête reçue.</li>
-      </ul>
-
-      <hr class="spacer" />
-
-      <h3 id="use">Que faisons-nous des informations que nous collectons ?</h3>
-
-      <p>Toutes les informations que nous collectons sur vous peuvent être utilisées d’une des manières suivantes :</p>
-
-      <ul>
-      <li>Pour vous fournir les fonctionnalités de base de Mastodon. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté·e. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs posts dans votre fil d’accueil personnalisé.</li>
-      <li>Pour aider à la modération de la communauté, par exemple, comparer votre adresse IP à d’autres afin de déterminer si un bannissement a été contourné ou si une autre violation aux règles a été commise.</li>
-      <li>L’adresse électronique que vous nous avez fournie peut être utilisée pour vous envoyez des informations, des notifications lorsque d’autres personnes interagissent avec votre contenu ou vous envoient des messages, pour répondre à des demandes de votre part ainsi que pour tout autres requêtes ou questions.</li>
-      </ul>
-
-      <hr class="spacer" />
-
-      <h3 id="protect">Comment protégeons-nous vos informations ?</h3>
-
-      <p>Nous mettons en œuvre une variété de mesures de sécurité afin de garantir la sécurité de vos informations personnelles quand vous les saisissez, les soumettez et les consultez. Entre autres choses, votre session de navigation ainsi que le trafic entre votre application et l’API sont sécurisés à l’aide de TLS tandis que votre mot de passe est haché en utilisant un puissant algorithme à sens unique. Vous pouvez également activer l’authentification à deux facteurs pour sécuriser encore plus l’accès à votre compte.</p>
-
-      <hr class="spacer" />
-
-      <h3 id="data-retention">Quelle est notre politique de conservation des données ?</h3>
-
-      <p>Nous ferons un effort de bonne foi :</p>
-
-      <ul>
-      <li>Pour ne pas conserver plus de 90 jours les journaux systèmes contenant les adresses IP de toutes les requêtes reçues par ce serveur.</li>
-      <li>Pour ne pas conserver plus de 12 mois les adresses IP associées aux utilisateur·ice·s enregistré·e·s.</li>
-      </ul>
-
-      <p>Vous pouvez demander une archive de votre contenu, incluant vos posts, vos médias joints, votre image de profil et votre image d’en-tête.</p>
-
-      <p>Vous pouvez, à n’importe quel moment, supprimer votre compte de manière définitive.</p>
-
-      <hr class="spacer"/>
-
-      <h3 id="cookies">Utilisons-nous des témoins de connexion ?</h3>
-
-      <p>Oui. Les témoins de connexion sont de petits fichiers qu’un site ou un service transféres sur le disque dur de votre ordinateur via votre navigateur web (si vous l’avez autorisé). Ces témoins permettent au site de reconnaître votre navigateur et de, dans le cas où vous possédez un compte, de vous associer avec ce dernier.</p>
-
-      <p>Nous utilisons les témoins de connexion comme un moyen de comprendre et de nous souvenir de vos préférences pour vos prochaines visites.</p>
-
-      <hr class="spacer" />
-
-      <h3 id="disclose">Divulguons-nous des informations à des tierces parties ?</h3>
-
-      <p>Nous ne vendons, n’échangeons ou ne transférons d’une quelque manière que soit des informations permettant de vous identifier personnellement. Cela n’inclut pas les tierces parties de confiance qui nous aident à opérer ce site, à conduire nos activités commerciales ou à vous servir, tant qu’elles acceptent de garder ces informations confidentielles. Nous sommes également susceptibles de partager vos informations quand nous pensons que c’est nécessaire pour nous conformer à la loi, pour appliquer les politiques de notre site ainsi que pour défendre nos droits, notre propriété, notre sécurité et celles et ceux d’autres personnes.</p>
-
-      <p>Votre contenu public peut être téléchargé par d’autres serveurs du réseau. Dans le cas où vos abonné·e·s et vos destinataires résideraient sur des serveurs différents du vôtre, vos posts publics et abonné·e·s uniquement peuvent être délivrés vers les serveurs de vos abonné·e·s tandis que vos messages directs sont délivrés aux serveurs de vos destinataires.</p>
-
-      <p>Quand vous autorisez une application à utiliser votre compte, en fonction de l’étendue des permissions que vous approuvez, il est possible qu’elle puisse accéder aux informations publiques de votre profil, votre liste d’abonnements, votre liste d’abonné·e·s, vos listes, tout vos posts et vos favoris. Les applications ne peuvent en aucun cas accéder à votre adresse électronique et à votre mot de passe.</p>
-
-      <hr class="spacer" />
-
-      <h3 id="children">Utilisation de ce site par les enfants</h3>
-
-      <p>Si ce serveur est situé dans dans l’UE ou l’EEE : Notre site, produits et services sont tous destinés à des personnes âgées de 16 ans ou plus. Si vous avez moins de 16 ans, en application du RGPD (<a href="https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es">Règlement Général sur la Protection des Données</a>), merci de ne pas utiliser ce site.</p>
-
-      <p>Si ce serveur est situé dans aux États-Unis d’Amérique : Notre site, produits et services sont tous destinés à des personnes âgées de 13 ans ou plus. Si vous avez moins de 13 ans, en application du COPPA (<a href="https://fr.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act">Children's Online Privacy Protection Act</a>), merci de ne pas utiliser ce site.</p>
-
-      <p>Les exigences légales peuvent être différentes si ce serveur se trouve dans une autre juridiction.</p>
-
-      <hr class="spacer" />
-
-      <h3 id="changes">Modifications de notre politique de confidentialité</h3>
-
-      <p>Dans le cas où nous déciderions de changer notre politique de confidentialité, nous posterons les modifications sur cette page.</p>
-
-      <p>Ce document est publié sous lincence CC-BY-SA. Il a été mis à jours pour la dernière fois le 7 mars 2018.</p>
-
-      <p>Originellement adapté de la <a href="https://github.com/discourse/discourse">politique de confidentialité de Discourse</a>.</p>
-    title: Termini d’usu è di cunfidenzialità per %{instance}
   themes:
     contrast: Mastodon (Cuntrastu altu)
     default: Mastodon (Scuru)
@@ -1369,20 +1093,11 @@ co:
         suspend: Contu suspesu
     welcome:
       edit_profile_action: Cunfigurazione di u prufile
-      edit_profile_step: Pudete persunalizà u vostru prufile cù un ritrattu di prufile o di cuprendula, un nome pubblicu persunalizatu, etc. Pudete ancu rende u contu privatu per duvè cunfirmà ogni dumanda d’abbunamentu.
       explanation: Eccu alcune idee per principià
       final_action: Principià à pustà
-      final_step: 'Andemu! Ancu senza abbunati i vostri missaghji pubblichi puderanu esse visti da altre persone, per esempiu nant’a linea lucale è l’hashtag. Pudete ancu prisintavi nant’à u hashtag #introductions.'
       full_handle: U vostru identificatore cumplettu
       full_handle_hint: Quessu ghjè cio chì direte à i vostri amichi per circavi, abbunassi à u vostru contu da altrò, o mandà missaghji.
-      review_preferences_action: Mudificà e priferenze
-      review_preferences_step: Quì pudete adattà u cumpurtamentu di Mastodon à e vostre priferenze, cum’è l’email che vulete riceve, u nivellu di cunfidenzialità predefinitu di i vostri statuti, o u cumpurtamentu di i GIF animati.
       subject: Benvenutu·a nant’à Mastodon
-      tip_federated_timeline: A linea pubblica glubale mostra i statuti da altre istanze nant’a rete Mastodon, mà ùn hè micca cumpleta perchè ci sò soli i conti à quelli sò abbunati membri di a vostr’istanza.
-      tip_following: Site digià abbunatu·a à l’amministratori di u vostru servore. Per truvà d’altre parsone da siguità, pudete pruvà e linee pubbliche.
-      tip_local_timeline: A linea pubblica lucale ghjè una vista crunulogica di i statuti di a ghjente nant’à %{instance}. Quessi sò i vostri cunvicini!
-      tip_mobile_webapp: Pudete aghjunghje Mastodon à a pagina d’accolta di u vostru navigatore di telefuninu per riceve nutificazione, cum’un applicazione!
-      tips: Cunsiglii
       title: Benvenutu·a, %{name}!
   users:
     follow_limit_reached: Ùn pidete seguità più di %{limit} conti
