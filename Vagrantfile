@@ -83,7 +83,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "generic/ubuntu1804"
 
   config.vm.provider :virtualbox do |vb|
     vb.name = "deadinside"
@@ -103,6 +103,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   end
 
+  config.vm.provider :libvirt do |libvirt| 
+    libvirt.cpus = 16
+    libvirt.memory = 4192
+  end
+
   # This uses the vagrant-hostsupdater plugin, and lets you
   # access the development site at http://mastodon.local.
   # If you change it, also change it in .env.vagrant before provisioning
@@ -120,7 +125,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   if config.vm.networks.any? { |type, options| type == :private_network }
     config.vm.synced_folder ".", "/vagrant", type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'actimeo=1']
   else
-    config.vm.synced_folder ".", "/vagrant"
+    config.vm.synced_folder ".", "/vagrant", type: "sshfs"
   end
 
   # Otherwise, you can access the site at http://localhost:3000 and http://localhost:4000 , http://localhost:8080
